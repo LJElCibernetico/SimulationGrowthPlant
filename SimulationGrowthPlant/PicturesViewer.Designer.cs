@@ -62,6 +62,7 @@
             this.ButtonNext.Size = new System.Drawing.Size(75, 44);
             this.ButtonNext.TabIndex = 2;
             this.ButtonNext.UseVisualStyleBackColor = false;
+            this.ButtonNext.Visible = false;
             this.ButtonNext.Click += new System.EventHandler(this.ButtonNext_Click);
             // 
             // ButtonPrevious
@@ -73,6 +74,7 @@
             this.ButtonPrevious.Size = new System.Drawing.Size(75, 44);
             this.ButtonPrevious.TabIndex = 1;
             this.ButtonPrevious.UseVisualStyleBackColor = false;
+            this.ButtonPrevious.Visible = false;
             this.ButtonPrevious.Click += new System.EventHandler(this.ButtonPrevious_Click);
             // 
             // panel2
@@ -95,7 +97,7 @@
             // Change
             // 
             this.Change.Enabled = true;
-            this.Change.Interval = 5000;
+            this.Change.Interval = 1;
             this.Change.Tick += new System.EventHandler(this.Change_Tick);
             // 
             // ImageList
